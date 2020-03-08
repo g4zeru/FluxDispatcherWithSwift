@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9B460DD2414D02300AA737C /* FluxWithSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B460D32414D02300AA737C /* FluxWithSwift.framework */; };
+		B9B460DD2414D02300AA737C /* FluxDispatcherWithSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B460D32414D02300AA737C /* FluxDispatcherWithSwift.framework */; };
 		B9B460E22414D02300AA737C /* FluxWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460E12414D02300AA737C /* FluxWithSwiftTests.swift */; };
 		B9B460E42414D02300AA737C /* FluxWithSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B460D62414D02300AA737C /* FluxWithSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B460EE2414D03100AA737C /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460ED2414D03100AA737C /* Dispatcher.swift */; };
+		B9B460F62414DB6500AA737C /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460F52414DB6500AA737C /* Resource.swift */; };
+		B9B460F82414DC1C00AA737C /* DispatcherStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460F72414DC1C00AA737C /* DispatcherStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B9B460D32414D02300AA737C /* FluxWithSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluxWithSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B460D32414D02300AA737C /* FluxDispatcherWithSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluxDispatcherWithSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B460D62414D02300AA737C /* FluxWithSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluxWithSwift.h; sourceTree = "<group>"; };
 		B9B460D72414D02300AA737C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9B460DC2414D02300AA737C /* FluxWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B460E12414D02300AA737C /* FluxWithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxWithSwiftTests.swift; sourceTree = "<group>"; };
 		B9B460E32414D02300AA737C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B460ED2414D03100AA737C /* Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		B9B460F52414DB6500AA737C /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		B9B460F72414DC1C00AA737C /* DispatcherStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatcherStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B460DD2414D02300AA737C /* FluxWithSwift.framework in Frameworks */,
+				B9B460DD2414D02300AA737C /* FluxDispatcherWithSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +68,7 @@
 		B9B460D42414D02300AA737C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9B460D32414D02300AA737C /* FluxWithSwift.framework */,
+				B9B460D32414D02300AA737C /* FluxDispatcherWithSwift.framework */,
 				B9B460DC2414D02300AA737C /* FluxWithSwiftTests.xctest */,
 			);
 			name = Products;
@@ -72,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				B9B460D62414D02300AA737C /* FluxWithSwift.h */,
+				B9B460ED2414D03100AA737C /* Dispatcher.swift */,
+				B9B460F72414DC1C00AA737C /* DispatcherStore.swift */,
 				B9B460D72414D02300AA737C /* Info.plist */,
 			);
 			path = FluxWithSwift;
@@ -81,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B9B460E12414D02300AA737C /* FluxWithSwiftTests.swift */,
+				B9B460F52414DB6500AA737C /* Resource.swift */,
 				B9B460E32414D02300AA737C /* Info.plist */,
 			);
 			path = FluxWithSwiftTests;
@@ -115,7 +124,7 @@
 			);
 			name = FluxWithSwift;
 			productName = FluxWithSwift;
-			productReference = B9B460D32414D02300AA737C /* FluxWithSwift.framework */;
+			productReference = B9B460D32414D02300AA737C /* FluxDispatcherWithSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B9B460DB2414D02300AA737C /* FluxWithSwiftTests */ = {
@@ -148,6 +157,7 @@
 				TargetAttributes = {
 					B9B460D22414D02300AA737C = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					B9B460DB2414D02300AA737C = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -195,6 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B460F82414DC1C00AA737C /* DispatcherStore.swift in Sources */,
+				B9B460EE2414D03100AA737C /* Dispatcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B460F62414DB6500AA737C /* Resource.swift in Sources */,
 				B9B460E22414D02300AA737C /* FluxWithSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +353,7 @@
 		B9B460E82414D02300AA737C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8446Z6F5D6;
@@ -353,9 +367,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.g4zeru.FluxWithSwift;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.g4zeru.FluxDispatcherWithSwift;
+				PRODUCT_NAME = FluxDispatcherWithSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +379,7 @@
 		B9B460E92414D02300AA737C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8446Z6F5D6;
@@ -377,8 +393,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.g4zeru.FluxWithSwift;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.g4zeru.FluxDispatcherWithSwift;
+				PRODUCT_NAME = FluxDispatcherWithSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -388,6 +404,7 @@
 		B9B460EB2414D02300AA737C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8446Z6F5D6;
 				INFOPLIST_FILE = FluxWithSwiftTests/Info.plist;
@@ -406,6 +423,7 @@
 		B9B460EC2414D02300AA737C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8446Z6F5D6;
 				INFOPLIST_FILE = FluxWithSwiftTests/Info.plist;
