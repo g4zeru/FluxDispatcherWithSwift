@@ -6,7 +6,7 @@
 //  Copyright © 2020 haruta-yamada. All rights reserved.
 //
 
-import FluxWithSwift
+import FluxDispatcherWithSwift
 
 class MockDispatcher: DispatcherStoreProtocol {
     enum Action {

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import FluxWithSwift
+@testable import FluxDispatcherWithSwift
 
 class FluxWithSwiftTests: XCTestCase {
 
