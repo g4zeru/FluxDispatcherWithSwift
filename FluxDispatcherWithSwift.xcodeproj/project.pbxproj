@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B9B460DD2414D02300AA737C /* FluxDispatcherWithSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B460D32414D02300AA737C /* FluxDispatcherWithSwift.framework */; };
-		B9B460E22414D02300AA737C /* FluxWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460E12414D02300AA737C /* FluxWithSwiftTests.swift */; };
-		B9B460E42414D02300AA737C /* FluxWithSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B460D62414D02300AA737C /* FluxWithSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B460E22414D02300AA737C /* FluxDispatcherWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460E12414D02300AA737C /* FluxDispatcherWithSwiftTests.swift */; };
+		B9B460E42414D02300AA737C /* FluxDispatcherWithSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B460D62414D02300AA737C /* FluxDispatcherWithSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9B460EE2414D03100AA737C /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460ED2414D03100AA737C /* Dispatcher.swift */; };
 		B9B460F62414DB6500AA737C /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460F52414DB6500AA737C /* Resource.swift */; };
 		B9B460F82414DC1C00AA737C /* DispatcherStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B460F72414DC1C00AA737C /* DispatcherStore.swift */; };
@@ -27,10 +27,10 @@
 
 /* Begin PBXFileReference section */
 		B9B460D32414D02300AA737C /* FluxDispatcherWithSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluxDispatcherWithSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9B460D62414D02300AA737C /* FluxWithSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluxWithSwift.h; sourceTree = "<group>"; };
+		B9B460D62414D02300AA737C /* FluxDispatcherWithSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluxDispatcherWithSwift.h; sourceTree = "<group>"; };
 		B9B460D72414D02300AA737C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9B460DC2414D02300AA737C /* FluxWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9B460E12414D02300AA737C /* FluxWithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxWithSwiftTests.swift; sourceTree = "<group>"; };
+		B9B460DC2414D02300AA737C /* FluxDispatcherWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxDispatcherWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B460E12414D02300AA737C /* FluxDispatcherWithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxDispatcherWithSwiftTests.swift; sourceTree = "<group>"; };
 		B9B460E32414D02300AA737C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9B460ED2414D03100AA737C /* Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		B9B460F52414DB6500AA737C /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
@@ -59,8 +59,8 @@
 		B9B460C92414D02300AA737C = {
 			isa = PBXGroup;
 			children = (
-				B9B460D52414D02300AA737C /* FluxWithSwift */,
-				B9B460E02414D02300AA737C /* FluxWithSwiftTests */,
+				B9B460D52414D02300AA737C /* FluxDispatcherWithSwift */,
+				B9B460E02414D02300AA737C /* FluxDispatcherWithSwiftTests */,
 				B9B460D42414D02300AA737C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,30 +69,30 @@
 			isa = PBXGroup;
 			children = (
 				B9B460D32414D02300AA737C /* FluxDispatcherWithSwift.framework */,
-				B9B460DC2414D02300AA737C /* FluxWithSwiftTests.xctest */,
+				B9B460DC2414D02300AA737C /* FluxDispatcherWithSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9B460D52414D02300AA737C /* FluxWithSwift */ = {
+		B9B460D52414D02300AA737C /* FluxDispatcherWithSwift */ = {
 			isa = PBXGroup;
 			children = (
-				B9B460D62414D02300AA737C /* FluxWithSwift.h */,
+				B9B460D62414D02300AA737C /* FluxDispatcherWithSwift.h */,
 				B9B460ED2414D03100AA737C /* Dispatcher.swift */,
 				B9B460F72414DC1C00AA737C /* DispatcherStore.swift */,
 				B9B460D72414D02300AA737C /* Info.plist */,
 			);
-			path = FluxWithSwift;
+			path = FluxDispatcherWithSwift;
 			sourceTree = "<group>";
 		};
-		B9B460E02414D02300AA737C /* FluxWithSwiftTests */ = {
+		B9B460E02414D02300AA737C /* FluxDispatcherWithSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				B9B460E12414D02300AA737C /* FluxWithSwiftTests.swift */,
+				B9B460E12414D02300AA737C /* FluxDispatcherWithSwiftTests.swift */,
 				B9B460F52414DB6500AA737C /* Resource.swift */,
 				B9B460E32414D02300AA737C /* Info.plist */,
 			);
-			path = FluxWithSwiftTests;
+			path = FluxDispatcherWithSwiftTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,16 +102,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B460E42414D02300AA737C /* FluxWithSwift.h in Headers */,
+				B9B460E42414D02300AA737C /* FluxDispatcherWithSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B9B460D22414D02300AA737C /* FluxWithSwift */ = {
+		B9B460D22414D02300AA737C /* FluxDispatcherWithSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B460E72414D02300AA737C /* Build configuration list for PBXNativeTarget "FluxWithSwift" */;
+			buildConfigurationList = B9B460E72414D02300AA737C /* Build configuration list for PBXNativeTarget "FluxDispatcherWithSwift" */;
 			buildPhases = (
 				B9B460CE2414D02300AA737C /* Headers */,
 				B9B460CF2414D02300AA737C /* Sources */,
@@ -122,14 +122,14 @@
 			);
 			dependencies = (
 			);
-			name = FluxWithSwift;
+			name = FluxDispatcherWithSwift;
 			productName = FluxWithSwift;
 			productReference = B9B460D32414D02300AA737C /* FluxDispatcherWithSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B9B460DB2414D02300AA737C /* FluxWithSwiftTests */ = {
+		B9B460DB2414D02300AA737C /* FluxDispatcherWithSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B460EA2414D02300AA737C /* Build configuration list for PBXNativeTarget "FluxWithSwiftTests" */;
+			buildConfigurationList = B9B460EA2414D02300AA737C /* Build configuration list for PBXNativeTarget "FluxDispatcherWithSwiftTests" */;
 			buildPhases = (
 				B9B460D82414D02300AA737C /* Sources */,
 				B9B460D92414D02300AA737C /* Frameworks */,
@@ -140,9 +140,9 @@
 			dependencies = (
 				B9B460DF2414D02300AA737C /* PBXTargetDependency */,
 			);
-			name = FluxWithSwiftTests;
+			name = FluxDispatcherWithSwiftTests;
 			productName = FluxWithSwiftTests;
-			productReference = B9B460DC2414D02300AA737C /* FluxWithSwiftTests.xctest */;
+			productReference = B9B460DC2414D02300AA737C /* FluxDispatcherWithSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9B460CD2414D02300AA737C /* Build configuration list for PBXProject "FluxWithSwift" */;
+			buildConfigurationList = B9B460CD2414D02300AA737C /* Build configuration list for PBXProject "FluxDispatcherWithSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,8 +177,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9B460D22414D02300AA737C /* FluxWithSwift */,
-				B9B460DB2414D02300AA737C /* FluxWithSwiftTests */,
+				B9B460D22414D02300AA737C /* FluxDispatcherWithSwift */,
+				B9B460DB2414D02300AA737C /* FluxDispatcherWithSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9B460F62414DB6500AA737C /* Resource.swift in Sources */,
-				B9B460E22414D02300AA737C /* FluxWithSwiftTests.swift in Sources */,
+				B9B460E22414D02300AA737C /* FluxDispatcherWithSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +224,7 @@
 /* Begin PBXTargetDependency section */
 		B9B460DF2414D02300AA737C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9B460D22414D02300AA737C /* FluxWithSwift */;
+			target = B9B460D22414D02300AA737C /* FluxDispatcherWithSwift */;
 			targetProxy = B9B460DE2414D02300AA737C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,7 +442,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9B460CD2414D02300AA737C /* Build configuration list for PBXProject "FluxWithSwift" */ = {
+		B9B460CD2414D02300AA737C /* Build configuration list for PBXProject "FluxDispatcherWithSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9B460E52414D02300AA737C /* Debug */,
@@ -451,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B460E72414D02300AA737C /* Build configuration list for PBXNativeTarget "FluxWithSwift" */ = {
+		B9B460E72414D02300AA737C /* Build configuration list for PBXNativeTarget "FluxDispatcherWithSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9B460E82414D02300AA737C /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B460EA2414D02300AA737C /* Build configuration list for PBXNativeTarget "FluxWithSwiftTests" */ = {
+		B9B460EA2414D02300AA737C /* Build configuration list for PBXNativeTarget "FluxDispatcherWithSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9B460EB2414D02300AA737C /* Debug */,

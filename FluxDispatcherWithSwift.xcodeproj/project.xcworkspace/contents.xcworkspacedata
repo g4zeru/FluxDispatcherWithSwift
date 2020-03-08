@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FluxWithSwift.xcodeproj">
+      location = "self:/Users/iniad/workspace/XcodeProject/FluxWithSwift/FluxDispatcherWithSwift.xcodeproj">
    </FileRef>
 </Workspace>
